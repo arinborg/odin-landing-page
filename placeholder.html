@@ -1,0 +1,33 @@
+<div class="FirstSection">
+    <div class="FirstSectionLeft">
+        <h2>This website is awesome</h2>
+        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is a lower contrast</p>
+        <button>Sign up</button>
+    </div>
+    <div class="FirstSectionRight">
+        <img src="static/img/Price tag white.png">
+    </div>
+</div>
+
+
+
+
+.FirstSection{
+    border: 2px solid black;
+    margin-top: 25px;
+    display: flex;
+    height: 350px;
+}
+
+.FirstSectionRight, .FirstSectionRight > img{
+    height: 350px;
+    position: absolute;
+    right: 100px;
+}
+
+.FirstSectionLeft{
+    border: 2px solid black;
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+}

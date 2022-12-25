@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    background-color: #1f2937;
+}
+
+.logo{
+    align-self: center;
+    width: 75px;
+    margin: 15px;
+}
+
+.LinkContainer{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.Link{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #d3d3d3;
+    margin: 15px;
+}
+
+.Link:hover{
+    text-decoration: line-through;
+}
+
+.FirstSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #1f2937;
+    padding: 15px;
+    height: 200px;
+    gap: 450px;
+}
+
+.FirstSectionLeft{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    gap: 15px;
+}
+
+.FirstSectionRight{
+    margin-right: 235px;
+}
+
+.FirstSectionLeft > h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #d3d3d3;
+    font-size: 25px;
+}
+
+.FirstSectionLeft > p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #d3d3d3;
+    font-size: 10px;
+}
+
+.FirstSectionLeft > button{
+    width: 100px;
+    background-color: #1f2937;
+    color: #d3d3d3;
+    border: 2px solid #d3d3d3;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.SecondSection > h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.ImageContainer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom:60px;
+}
+
+.SecondSectionImage{
+    width: 100px;
+    border: 2px solid #1f2937;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.SecondSectionText{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+}
+
+.Images{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ThirdSection{
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+    padding: 60px;
+}
+
+.ThirdSectionText{
+    flex: 0.5;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.FourthSection{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    gap: 50px;
+    background-color: #1f2937;
+    border-radius: 15px;
+}
+
+.FourthSectionLeft > h5{
+    font-family:'Courier New', Courier, monospace;
+    color: #d3d3d3;
+    font-size: 15px;
+}
+
+.FourthSectionLeft > p{
+    font-family:'Courier New', Courier, monospace;
+    color: #d3d3d3;
+    font-size: 10px;
+}
+
+.FourthSectionRight > button{
+    border: 2px solid #d3d3d3;
+    border-radius: 15px;
+    background-color: #1f2937;
+    color: #d3d3d3;
+    cursor: pointer;
+}
+
+.Footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: #d3d3d3;
+}
